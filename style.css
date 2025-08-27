@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Baloo+Bhaina+2:wght@400..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div p:hover {
+    transform: scale(1.02);
+    background-color: #023e8a;
+}
+
+div p:first-child {
+    background-color: #ffe066;
+    color: #d62828;
+}
+
+div p {
+    background-color: #0077b6;
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.second p {
+    background-color: #a8dadc;
+    color: #1d3557;
+
+}
+
+.second p:first-child {
+    background-color: #31ba7a;
+    color: #4a148c;
+}
+
+
+h1 {
+
+    text-align: center;
+    color: #1f3b73;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-decoration: underline;
+    text-decoration-color: #ffdaaa;
+    text-decoration-thickness: 5px;
+    text-transform: capitalize;
+
+
+}
+
+
+
+body {
+    background-color: #f5f7fa;
+    font-family: "Baloo Bhai 2", sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.second {
+    background-color: #e7f5ff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+div {
+
+    background-color: #bedef5;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #1f3b73;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+    color: #ffdaaa;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #ffe066;             
+  text-decoration: underline;
+}
+
+.profile-img {
+  width: 90px;         
+  height: 90px;         
+  border-radius: 50%;    
+  object-fit: cover;      
+  float:left;          
+  margin-left: 15px;     
+}
